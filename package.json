@@ -1,0 +1,28 @@
+{
+  "name": "namasthe_react",
+  "version": "1.0.0",
+  "description": "this is namasthe react by akshay saini",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay123-byte/Team_project.git"
+  },
+  "keywords": [
+    "react",
+    "vijay",
+    "akshay",
+    "saini"
+  ],
+  "author": "vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay123-byte/Team_project/issues"
+  },
+  "homepage": "https://github.com/vijay123-byte/Team_project#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
