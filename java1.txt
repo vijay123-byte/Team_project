@@ -6,3 +6,6 @@ create table Officer(
 
 INSERT INTO Officer
 VALUES(1,'VIMAL')
+
+INSERT INTO Officer
+VALUES(1,'VIMAL')
