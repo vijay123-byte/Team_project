@@ -1,0 +1,8 @@
+create table Officer(
+
+  ofc_id integer,
+  ofc_name text
+)
+
+INSERT INTO Officer
+VALUES(1,'VIMAL')
