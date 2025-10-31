@@ -63,3 +63,36 @@ BEGIN
 		
 END $$;
 
+---------------------------
+
+
+
+CREATE TABLE employees (
+    id SERIAL PRIMARY KEY,
+    name TEXT,
+    details JSONB
+);
+
+
+INSERT INTO employees (name, details)
+VALUES 
+('Vijay', '{"department": "HR", "skills": ["SQL", "PL/pgSQL"], "experience": 5}');
+
+
+select * from employees
+
+
+SELECT details->'skills' AS department
+FROM employees;
+
+
+SELECT details->>'skills' AS department
+FROM employees;
+
+
+SELECT 
+  details->'skills'->>0 AS first_skill
+FROM employees;
+
+
+
