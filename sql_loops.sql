@@ -1,4 +1,7 @@
-----USING FOR LOOP----
+---This is changes happend----
+
+
+---USING FOR LOOP----
 
 DO $$
 DECLARE 
@@ -93,6 +96,8 @@ FROM employees;
 SELECT 
   details->'skills'->>0 AS first_skill
 FROM employees;
+
+
 
 
 
